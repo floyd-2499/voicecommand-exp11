@@ -1,0 +1,43 @@
+body {
+  background-color: black;
+}
+#container {
+  float: right;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+  width: 20%;
+  height: 94vh;
+  padding: 20px 0px;
+  border: 2px solid black;
+  border-radius: 20px;
+  background-color: rgb(242, 255, 243);
+  overflow-y: scroll;
+}
+
+div.chat-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+  width: 80%;
+  margin-top: 10px;
+}
+
+div.chat-container p {
+  padding: 10px 20px;
+  background-color: chartreuse;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: 600;
+  opacity: 0.9;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+div.darker p {
+  padding: 10px 20px;
+  background-color: rgb(255, 193, 193);
+  border-radius: 30px;
+  margin-top: -10px;
+}
